@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Game Collection Manager</string>
+    <string name="navigation_collection">Collection</string>
+    <string name="navigation_add">Add</string>
+    <string name="navigation_wishlist">Wishlist</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_preferences">Preferences</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+
+
+</resources>

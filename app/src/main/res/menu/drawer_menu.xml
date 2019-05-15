@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon_24dp"
+            android:title="@string/navigation_home" />
+        <item
+            android:id="@+id/nav_collection_side"
+            android:icon="@drawable/collection_icon_24dp"
+            android:title="@string/navigation_collection" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/wishlist_icon_24dp"
+            android:title="@string/navigation_wishlist" />
+
+    </group>
+
+    <item android:title="Preferences">
+        <Menu>
+            <item
+             android:id="@+id/nav_preferences"
+             android:icon="@drawable/preferences_24dp"
+             android:title="@string/navigation_preferences"/>
+        </Menu>
+    </item>
+</menu>
